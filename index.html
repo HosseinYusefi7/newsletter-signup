@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Newsletter SignUp</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="offer-container">
+        <h2>Stay updated!</h2>
+        <p>Join 60.000+ product managers receiving monthly updates on:</p>
+        <div class="offer-list-container">
+          <div class="offer-list">
+            <img src="/assets/images/icon-success.svg" alt="" />
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="offer-list">
+            <img src="assets/images/icon-success.svg" alt="" />
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="offer-list">
+            <img src="assets/images/icon-success.svg" alt="" />
+            <p>And much more!</p>
+          </div>
+        </div>
+        <p>Email Adress</p>
+        <span class="valid-error">Valid Email Required!</span>
+        <input
+          type="email"
+          name="Email"
+          id="email-input"
+          placeholder="email@company.com"
+        />
+        <button class="btn">Subscribe to monthly newsletter</button>
+      </div>
+      <div class="img-container">
+        <img src="/assets/images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
+    </div>
+    <div class="popup">
+      <img src="assets/images/icon-success.svg" alt="" />
+      <h1>Thanks For Subscribing!</h1>
+      <p class="subscribe-info"></p>
+      <button class="dismiss-btn">Dismiss message</button>
+    </div>
+  </body>
+</html>
